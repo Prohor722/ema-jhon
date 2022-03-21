@@ -1,0 +1,21 @@
+nav{
+    background-color: #1C2B35;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 146px;
+    padding-right: 146px;
+    
+}
+
+#nav-items a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 36px;
+}
+
+#nav-items a:hover{
+    color: #FF9900;
+}
