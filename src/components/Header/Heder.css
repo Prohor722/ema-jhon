@@ -9,6 +9,11 @@ nav{
     
 }
 
+nav img{
+   width: 140px;
+   height: 42.46px;
+}
+
 #nav-items a{
     font-size: 17px;
     text-decoration: none;
