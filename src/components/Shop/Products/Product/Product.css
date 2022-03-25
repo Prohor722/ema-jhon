@@ -54,6 +54,9 @@ img{
 
 /* button style  */
 .btn-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color: #FFE0B3;
     border: none;
@@ -66,4 +69,8 @@ img{
 .btn-cart:hover{
     background-color: #ff9900;
     color: #fff;
+}
+.btn-icon{
+    height: 20px;
+    padding-left: 10px;
 }
