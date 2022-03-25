@@ -12,7 +12,7 @@
     font-size: 25px;
     line-height: 30px;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .order-info{
     font-family: 'Lato';
@@ -29,4 +29,14 @@
     font-size: 21px;
     line-height: 25px;
     letter-spacing: 0.0015em;
+}
+
+.order-details{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }

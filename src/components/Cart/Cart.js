@@ -1,5 +1,6 @@
 import React from 'react';
 import './Cart.css'
+import CartItems from './Items/CartItems';
 
 const Cart = ({cartProducts}) => {
 
@@ -23,6 +24,11 @@ const Cart = ({cartProducts}) => {
             <p className='order-info'>Total Shipping Charge: ${shipping}</p>
             <p className='order-info'>Tax: ${tax.toFixed(2)}</p>
             <p className='grand-total'>Grand Total: {grandTotal.toFixed(2)}</p>
+
+            <div className='items'>
+            <p className='order-details'>Order Details</p>
+                <CartItems products={cartProducts}></CartItems>
+            </div>
         </div>
     );
 };
